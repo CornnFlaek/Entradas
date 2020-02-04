@@ -14,7 +14,6 @@
 
 using namespace std;
 
-// Declarar una ventana
 GLFWwindow* window;
 float posXTriangulo = 0.0f, posYTriangulo = 0.0f;
 float anguloTriangulo = 0.0f;
