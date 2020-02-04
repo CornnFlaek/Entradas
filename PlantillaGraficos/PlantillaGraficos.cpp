@@ -124,8 +124,7 @@ int main() {
 	const GLubyte* versionGL = glGetString(GL_VERSION);
 	cout << "Version OpenGL: " << versionGL;
 
-	// Establecemos que con cada evento de teclado se llama
-	// a la función teclado_callback
+	// Establecemos que con cada evento de teclado se llamaa la función teclado_callback
 	//glfwSetKeyCallback(window, teclado_callback);
 
 	tiempoActual = glfwGetTime();
